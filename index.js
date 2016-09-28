@@ -1,17 +1,14 @@
-import mapbox from 'mapbox-gl'
+import mapboxgl from 'mapbox-gl'
 
 console.log('welcome to they-follow')
 
-// L.mapbox.accessToken = 'pk.eyJ1IjoiaGlrdXJhbmdpIiwiYSI6ImNpdG04YmJwbzAwcWYyb2w0c2JoZjlidXAifQ.a_8mavHpZc852zTLsF_kSw';
-// var map = L.mapbox.map('map', 'mapbox.streets')
-//     .setView([40, -74.50], 9);
-
-
+// mapboxgl.accessToken = process.env.MAPBOX_GL_KEY
+mapboxgl.accessToken = 'pk.eyJ1IjoiaGlrdXJhbmdpIiwiYSI6ImNpdG1hYmI2YzAweHgyeG4wYXE5MGhmeTIifQ.L9Kkv_kbglN626HmG6ryfQ'
 var map = new mapboxgl.Map({
   // container id
   container: 'map',
   // style location
-  style: 'mapbox://styles/mapbox/streets-9',
+  style: 'mapbox://styles/hikurangi/citmae8uk00232itjo8oqtj0l',
   // starting position
   center: [-74.50, 40],
   zoom: 9

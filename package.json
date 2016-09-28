@@ -18,15 +18,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hikurangi/they-follow"
+    "url": "https://github.com/hikurangi/they-follow-react"
   },
   "author": "hikurangi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hikurangi/they-follow/issues"
+    "url": "https://github.com/hikurangi/they-follow-react/issues"
   },
-  "homepage": "https://github.com/hikurangi/they-follow",
+  "homepage": "https://github.com/hikurangi/they-follow-react",
   "dependencies": {
+    "mapbox-gl": "^0.24.0",
     "mapbox.js": "^2.4.0"
   },
   "devDependencies": {

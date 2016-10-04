@@ -28,7 +28,9 @@
   "homepage": "https://github.com/hikurangi/they-follow-react",
   "dependencies": {
     "dotenv": "^2.0.0",
-    "mapbox-gl": "^0.24.0"
+    "immutable": "^3.8.1",
+    "r-dom": "^2.3.0",
+    "react-map-gl": "^1.6.1"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.5.0",

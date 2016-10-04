@@ -1,15 +1,19 @@
-import React, { Component } from 'react'
+const React = require('react')
+const { Component } = require('react')
+const Map = require('./map')
 
-class App extends Component {
-
-  constructor (props) {
-    super(props)
-  }
-
+class App extends React.Component {
+//   componentDidMount() {
+//   this.props.store.dispatch(fetchItems()) // asynch action creator
+// }
   render () {
-    return <h1>Welcome to {this.props.name}</h1>
+    return (
+      <div>
+        <Map />
+        <h1>They Follow</h1>
+      </div>
+    )
   }
-
 }
 
-export default App
+module.exports = App

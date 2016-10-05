@@ -21,6 +21,8 @@ class Map extends React.Component {
   componentDidMount () {
     navigator.geolocation.getCurrentPosition((position) => {
       this.setState({center: [position.coords.latitude, position.coords.longitude]})
+      var currentCoords = this.state.center
+      console.log('currentCoords', currentCoords)
     })
     // this.setState({
     //   styles: {
@@ -37,7 +39,7 @@ class Map extends React.Component {
         <Text />
         < MapGL
           mapStyle='mapbox://styles/hikurangi/citmae8uk00232itjo8oqtj0l'
-          width={1600}
+          width={1800}
           height={900}
           mapboxApiAccessToken={accessToken}
           latitude={center[0]}

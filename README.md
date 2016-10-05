@@ -5,27 +5,27 @@ https://www.youtube.com/watch?v=hacSltkpNy8
 
 ### 'Release 1'
 
-[x] render the map inside App
-[x] render title text over map
-[x] centre the map on the user's location
-[ ] get map to align properly? ~ somewhat solved with flex-box!
+- [x] render the map inside App
+- [x] render title text over map
+- [x] centre the map on the user's location
+- [ ] get map to align properly? ~ somewhat solved with flex-box!
 
 ### 'Release 2'
 
-[ ] refine map - make it fullscreen
-[ ] spawn a random point on the map (I know how, but where?)
-[ ] add that point to a database *** - 'state' is more relevant when I implement a login system
-[ ] have that point move toward the user
-[ ] navigate the map using touch-style controls (pinch/scroll wheel zoom, click + drag)
+- [ ] refine map - make it fullscreen
+- [ ] spawn a random point on the map (I know how, but where?)
+- [ ] add that point to a database *** - 'state' is more relevant when I implement a login system
+- [ ] have that point move toward the user
+- [ ] navigate the map using touch-style controls (pinch/scroll wheel zoom, click + drag)
 
 ### 'Release 3'
 
-[ ] implement authorization system
-[ ] implement a database for authorization and tracking of followers
+- [ ] implement authorization system
+- [ ] implement a database for authorization and tracking of followers
 
 ### 'Release 4'
 
-[ ] multiplayer mechanic - sic the 'follower(s)' on to your friends or enemies!
+- [ ] multiplayer mechanic - sic the 'follower(s)' on to your friends or enemies!
 
 ## learning outcomes
 

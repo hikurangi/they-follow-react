@@ -3,9 +3,9 @@ https://www.youtube.com/watch?v=hacSltkpNy8
 
 ## sprints/objectives
 
-### 'Release 1'
+* 'Release 1'
 
-[x] render the map inside App
+*[x] render the map inside App
 [x] render title text over map
 [x] centre the map on the user's location
 [ ] get map to align properly? ~ somewhat solved with flex-box!

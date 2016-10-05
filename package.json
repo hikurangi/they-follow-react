@@ -30,7 +30,8 @@
     "dotenv": "^2.0.0",
     "immutable": "^3.8.1",
     "r-dom": "^2.3.0",
-    "react-map-gl": "^1.6.1"
+    "react-map-gl": "^1.6.1",
+    "turf": "^3.0.14"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.5.0",

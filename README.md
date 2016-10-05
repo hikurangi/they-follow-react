@@ -36,12 +36,11 @@ https://www.youtube.com/watch?v=hacSltkpNy8
 3. I really want to continue with this. I love the concept. I just wish it lined up more with the learning content of this course. There are better concepts for learning what we've covered here.
 
 4. Another big block was around the API itself. Deciding:
-  * which React API to use for Mapbox - thanks Simon for introducing me to npmcompare.com which was invaluable. FWIW, react-map-gl is Uber's module of choice, and it has been good to use so far.
+  * which React API to use for Mapbox - thanks Simon for introducing me to npmcompare.com which was invaluable. FWIW, react-map-gl is Uber's module of choice, and it has been good to use for basic functionality, but difficult for more complex manipulation of Mapbox operations within React itself.s
   * whether wrapping the 'vanilla' client-side API js in a React component was the way to go or not.
 
-5. Responsiveness with a map API in React is really hard:
+5. Responsiveness with a map API in React is really hard. The following code seems to be on the right sort of track. It refers to the window, but could be inherited by another nested Component.
 ```js
 window.addEventListener('resize', this._onWindowResize)
 this.state = {width: window.innerWidth}
 ```
-  seems to be the way to go.

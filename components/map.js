@@ -20,9 +20,8 @@ class Map extends React.Component {
   // like onLoad
   componentDidMount () {
     navigator.geolocation.getCurrentPosition((position) => {
-      this.setState({center: [position.coords.latitude, position.coords.longitude]})
-      var currentCoords = this.state.center
-      console.log('currentCoords', currentCoords)
+      var currentCoords = {center: [position.coords.latitude, position.coords.longitude]}
+      this.setState(currentCoords)
     })
     // this.setState({
     //   styles: {

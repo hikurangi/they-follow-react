@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=hacSltkpNy8
 
 ## learning outcomes
 
-1. It would have been nice to have more time (there are only 24 hours in a day). Considering these weeks have included some of the most unpleasant/generally shitty experience(s) of my life... I did what I could.
+1. It would have been nice to have more time (there are only 24 hours in a day). Considering these weeks have been some of the most challenging I've experienced... I did what I could.
 
 2. CSS is a huge rabbit-hole for me, but essential for this style of 'game'.
 

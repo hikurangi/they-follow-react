@@ -3,6 +3,7 @@ const { Component } = require('react')
 // const style = require('./lib/style')
 import MapGL from 'react-map-gl'
 const Text = require('./text')
+const enemies = require('../lib/enemies')
 
 // then convert style as required
 
@@ -43,7 +44,7 @@ class Map extends React.Component {
           mapboxApiAccessToken={accessToken}
           latitude={center[0]}
           longitude={center[1]}
-          zoom={8}>
+          zoom={12}>
         < /MapGL>
       </div>
     )
